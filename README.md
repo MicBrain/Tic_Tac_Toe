@@ -29,4 +29,4 @@ Without taking symmetries into account, the number of possible games can be dete
 If board symmetries are taken into account, two games are considered the same if rotating and/or reflecting the board makes one of the games into a copy of the other game. With the use of a computer, Steve Schaeffer found in 2002 that the number of games in these conditions is 26,830.
 
 
-### Ref
+### Refer
