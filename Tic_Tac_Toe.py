@@ -38,7 +38,7 @@ C = 'C'
 ## State variables ##
 #####################
 
-EMPTY = ' '     # the value of an empty square
+EMPTY = ' '  
 Table = [[EMPTY, EMPTY, EMPTY],     
          [EMPTY, EMPTY, EMPTY],    
          [EMPTY, EMPTY, EMPTY]]    
