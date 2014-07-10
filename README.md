@@ -8,3 +8,9 @@
    The simplicity of Tic-tac-toe makes it ideal as a pedagogical tool for teaching the concepts of good sportsmanship and the branch of artificial intelligence that deals with the searching of game trees.  It is straightforward to write a computer program to play Tic-tac-toe perfectly. The game can be generalized to an m,n,k-game in which two players alternate placing stones of their own color on an m×n board, with the goal of getting k of their own color in a row. Tic-tac-toe is the (3,3,3)-game.
 
    Despite its apparent simplicity, Tic-tac-toe requires detailed analysis to determine even some elementary combinatory facts, the most interesting of which are the number of possible games and the number of possible positions. A position is merely a state of the board, while a game usually refers to the way a terminal position is obtained.
+   
+   Naive counting leads to 19,683 possible board layouts (39 since each of the nine spaces can be X, O or blank), and 362,880 (i.e. 9!) possible games (different sequences for placing the Xs and Os on the board). However, two matters much reduce these numbers:
+
+The game ends when three-in-a-row is obtained.
+The number of Xs is always either equal to or exactly 1 more than the number of Os (if X starts).
+The complete analysis is further complicated by the definitions used when setting the conditions, like board symmetries.
