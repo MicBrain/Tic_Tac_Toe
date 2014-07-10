@@ -21,4 +21,3 @@ The complete analysis is further complicated by the definitions used when settin
    2. 44 unique positions are won by (O)
    3. Unique 3 positions are drawn
 
-   Without taking symmetries into account, the number of possible games can be determined by hand with an exact formula that leads to 255,168 possible games. Assuming that X makes the first move every time:
