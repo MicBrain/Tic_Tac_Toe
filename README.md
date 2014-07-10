@@ -33,3 +33,4 @@ If board symmetries are taken into account, two games are considered the same if
 
    1. http://www.mathrec.org/old/2002jan/solutions.html
    2. http://en.wikipedia.org/wiki/Tic-tac-toe
+   3. 
