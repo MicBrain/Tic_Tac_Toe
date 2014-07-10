@@ -31,4 +31,4 @@ If board symmetries are taken into account, two games are considered the same if
 
 ### References
 
-1
+   1. http://www.mathrec.org/old/2002jan/solutions.html
