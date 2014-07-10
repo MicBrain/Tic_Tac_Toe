@@ -11,7 +11,7 @@
    
    Naive counting leads to 19,683 possible board layouts, and 362,880 possible games (different sequences for placing the Xs and Os on the board). However, two matters much reduce these numbers:
 
-    1. The game ends when three-in-a-row is obtained.
-    2. The number of Xs is always either equal to or exactly 1 more than the number of Os (if X starts).
+   1. The game ends when three-in-a-row is obtained.
+   2. The number of Xs is always either equal to or exactly 1 more than the number of Os (if X starts).
 
 The complete analysis is further complicated by the definitions used when setting the conditions, like board symmetries.
