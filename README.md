@@ -15,3 +15,5 @@
    2. The number of Xs is always either equal to or exactly 1 more than the number of Os (if X starts).
 
 The complete analysis is further complicated by the definitions used when setting the conditions, like board symmetries.
+
+   When considering only the state of the board, and after taking into account board symmetries (i.e. rotations and reflections), there are only 138 terminal board positions. Assuming that X makes the first move every time:
