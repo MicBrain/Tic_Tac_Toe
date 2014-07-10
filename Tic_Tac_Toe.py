@@ -37,12 +37,13 @@ C = 'C'
 #####################
 ## State variables ##
 #####################
-EMPTY = ' '     # the value of an empty square
-Table = [[EMPTY, EMPTY, EMPTY],     # board is initially all empty squares,
-         [EMPTY, EMPTY, EMPTY],     # implemented as a list of rows,
-         [EMPTY, EMPTY, EMPTY]]     # three rows with three squares each
 
-current = randint(1, 2)      # randomly choose starting player
+EMPTY = ' '     # the value of an empty square
+Table = [[EMPTY, EMPTY, EMPTY],     
+         [EMPTY, EMPTY, EMPTY],    
+         [EMPTY, EMPTY, EMPTY]]    
+
+current = randint(1, 2)      
 
 #########################
 ### Coordinate system ###
