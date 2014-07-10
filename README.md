@@ -9,7 +9,7 @@
 
    Despite its apparent simplicity, Tic-tac-toe requires detailed analysis to determine even some elementary combinatory facts, the most interesting of which are the number of possible games and the number of possible positions. A position is merely a state of the board, while a game usually refers to the way a terminal position is obtained.
    
-   Naive counting leads to 19,683 possible board layouts (39 since each of the nine spaces can be X, O or blank), and 362,880 (i.e. 9!) possible games (different sequences for placing the Xs and Os on the board). However, two matters much reduce these numbers:
+   Naive counting leads to 19,683 possible board layouts, and 362,880 possible games (different sequences for placing the Xs and Os on the board). However, two matters much reduce these numbers:
 
 The game ends when three-in-a-row is obtained.
 The number of Xs is always either equal to or exactly 1 more than the number of Os (if X starts).
